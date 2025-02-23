@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    margin: 20px auto;
+    background: black;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.movie-poster {
+    flex: 1;
+}
+
+.movie-poster img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.movie-details {
+    flex: 1;
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+#stars {
+    color: gold;
+    font-size: 1.5em;
+}
+
+#cast {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.cast-member {
+    text-align: center;
+}
+
+.cast-member img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: darkred;
+}

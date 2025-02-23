@@ -1,0 +1,12 @@
+{
+    "compilerOptions": {
+      "target": "ES6", // Target ES6 or higher
+      "module": "commonjs", // Use CommonJS modules
+      "strict": true, // Enable strict type-checking
+      "lib": ["ES2015", "DOM"], // Include ES2015 and DOM libraries
+      "outDir": "./dist", // Output directory for compiled JS files
+      "rootDir": "./", // Root directory of your TypeScript files
+      "esModuleInterop": true // Enable ES module interop
+    },
+    "include": ["**/*.ts"] // Include all TypeScript files
+  }
